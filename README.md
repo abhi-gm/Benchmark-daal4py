@@ -10,6 +10,8 @@ The aim of this project is to work on and understand the effect of distributed a
 
 The benchmarking of Daal4py is a part of research under AI Skunkworks, in collaboration with Discovery (Research Computing at Northeastern University). The broad aim of the research is to benchmark PyDAAL(a.k.a. Daal4py) by Intel and compare it with other existing libraries for performance, scalability, and ease of use. This research is undertaken by Abhishek Maheshwarappa and Kartik Kumar. 
 
+To understand the full project go through the report [here](https://github.com/abhi-gm/Fast-Scalable-and-Easy-Machine-Learning-With-DAAL4PY/blob/main/Fast-Scalable-and-Easy-Machine-Learning-With-DAAL4PY-Report.pdf) 
+
 ## **Introduction Daal4py**
 
 
