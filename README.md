@@ -2,6 +2,8 @@
 
 ## **Benchmarking PyDaal with Scikit-Learn Librar**
 
+To know more about Daal4PY - [link-here](https://intelpython.github.io/daal4py/)
+
 (Data Analytics Acceleration Library by Intel)
 
 The aim of this project is to work on and understand the effect of distributed and multiprocessing on computationally heavy jobs. We perform two case studies - Daal4py and SHAP. Daal4py was created to give data scientists the easiest way to utilize Intel(R) oneAPI Data Analytics Library powerful machine learning building blocks directly in a high-productivity manner. Internally, Daal4py uses Intel(R) one API Data Analytics Library to deliver the best performance. We benchmark the performance with large datasets to see how scalable Daal4py is.
@@ -47,8 +49,15 @@ All time durations shown in graphs are in milliseconds (ms)
 
 LR - Linear regression (daal4py) , RR - Ridge regression (daal4py), Kmeans - KMeans Clustering (daal4py), NB - Naive Bayes (daal4py), PCA Principal Component Analysis(daal4py), SVD - Singular Value Decomposition (daal4py), SK linear - Scikit -learn Linear Regression (sklearn)
 
+![](https://github.com/abhi-gm/Fast-Scalable-and-Easy-Machine-Learning-With-DAAL4PY/blob/main/assest/pasted%20image%200.png)
 
 As seen in the graph above, daal4py algorithms are much faster than Scikit-learn algorithms. Serial vs Parallel yields mixed results across algorithms but the overall time taken is very less
+
+### **Other results**
+
+![](https://github.com/abhi-gm/Fast-Scalable-and-Easy-Machine-Learning-With-DAAL4PY/blob/main/assest/pasted%20image%200%20(1).png)
+
+![](https://github.com/abhi-gm/Fast-Scalable-and-Easy-Machine-Learning-With-DAAL4PY/blob/main/assest/pasted%20image%200%20(2).png)
 
 
 # **Guide to use the environment and Code**
@@ -82,4 +91,3 @@ python main.py
 
 
 I would like to thank the RC Discovery team of Northeastern University especially Manasvita Joshi and Mariana Levi for their help and support in getting the environment setup. 
-
