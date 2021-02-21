@@ -50,3 +50,36 @@ LR - Linear regression (daal4py) , RR - Ridge regression (daal4py), Kmeans - KMe
 
 As seen in the graph above, daal4py algorithms are much faster than Scikit-learn algorithms. Serial vs Parallel yields mixed results across algorithms but the overall time taken is very less
 
+
+# **Guide to use the environment and Code**
+
+# **Steps to setup environment to use Daal4py**
+
+
+1. We have a environment.yml file onb repo locate it.
+2. Go to anaconda or miniconda installed on the cluster and create the virtual environment.
+3. While creating the environment use yml file provided 
+4. Create the environment from the environment.yml file:
+```
+conda env create -f environment.yml
+```
+5. Activate the new environment: conda activate myenv
+6. Verify that the new environment was installed correctly: 
+
+```
+conda env list
+```
+# **Steps to run the code**
+
+1. Once the environment is set up it will allow you to run both Daal4py and SHAP code.
+2. Navigate to the directory containing main.py file
+3. There few datasets in the data folder and any other tabular data can be added
+4. To run use command 
+
+```
+python main.py
+```
+
+
+I would like to thank the RC Discovery team of Northeastern University especially Manasvita Joshi and Mariana Levi for their help and support in getting the environment setup. 
+
